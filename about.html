@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ABC Academy</title>
+    <link rel="stylesheet" href="about.css"> 
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <main>
+        <section class="description">
+            <p>Our aims to enable students and associated communities from early education<br> to lifelong learners by imparting digital and life skills<br> through curated content & interventions, free of cost.</p>
+        </section>
+
+        <section class="image-section">
+            <div class="image-box">
+                <div class="image" onclick="flip(this)">
+                    <img src="codingclass.jpg" alt="Daily Coding Classes" />
+                    <div class="content">
+                        <p style="color: black ;">1.Daily Coding Class:<br><br>
+
+                            Enhance your coding skills with our daily hands-on sessions, designed for all levels.<br><br>
+                  
+                            Dive into new coding challenges every day, perfect for improving problem-solving techniques.<br><br>
+                  
+                            Learn key programming concepts and best practices in an interactive environment.<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <div class="image" onclick="flip(this)">
+                    <img src="se.jpg" alt="Image 1" />
+                    <div class="content">
+                        <p style="color: black ;">2.Communication Practice:<br><br>
+                            Boost your confidence in speaking with regular communication practice sessions.<br><br>
+                
+                            Engage in meaningful conversations to improve fluency and clarity in your speech.<br><br>
+                
+                             Learn effective communication strategies for both personal and professional settings.<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <div class="image" onclick="flip(this)">
+                    <img src="techt.jpg" alt="Image 2" />
+                    <div class="content">
+                        <p style="color: black ;">3.technology Training:<br><br>
+
+                            Stay ahead in the tech world with our comprehensive technology training programs.<br><br>
+             
+                           Gain hands-on experience with the latest tools and technologies shaping the industry.<br><br>
+             
+                           Learn about cutting-edge advancements and how to apply them in real-world scenarios.<br><br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function flip(element) {
+            element.classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

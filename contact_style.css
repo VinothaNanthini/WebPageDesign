@@ -1,0 +1,60 @@
+
+body {
+    background-color: orange;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header {
+    padding: 20px;
+    background-color: darkorange;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+.contact-details {
+    padding: 20px;
+}
+
+.contact-details p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.contact-details a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 768px) {
+    .social-icon {
+        width: 10px;
+        height: 10px;
+    }
+}

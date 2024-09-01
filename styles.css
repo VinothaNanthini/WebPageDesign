@@ -1,0 +1,74 @@
+
+body {
+    background-color: rgb(18, 12, 58);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: right;
+    padding: 20px;
+}
+
+.abc-academy {
+    color: #FFA500; 
+    text-shadow: 2px 2px 4px #FFFFFF; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.announcement {
+    background-color: rgb(213, 202, 200);
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-box {
+    background-color: white;
+    color: black;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px; 
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+
+@media (max-width: 768px) {
+    .image-box {
+        width: 100%;
+    }
+}
